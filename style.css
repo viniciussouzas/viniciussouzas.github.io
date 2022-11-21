@@ -1,13 +1,19 @@
 .name {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  
 }
+
+
 
 .description {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 body {
   background-color: #2d4986;
+  padding: 12px;
 
 }
 
@@ -31,3 +37,28 @@ body {
 .communicativeSkills {
   font-size: 24px;
 }
+
+.imagedescription-container img {
+  float: left;
+  height: 250px;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.imagedescription-container h2, p {
+  position: relative;
+  top: 90px;
+  left: 8px;
+  text-align: center;
+}
+
+.imagedescription-container {
+  height: 290px;
+  
+}
+
+.habilities li:nth-child(odd) {
+font-style: oblique;
+border: 2px solid blue;
+}
+

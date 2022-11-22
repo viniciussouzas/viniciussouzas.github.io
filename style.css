@@ -1,25 +1,36 @@
+body {
+  background-color: #2d4986;
+  padding: 12px;
+}
+
 .name {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   
 }
 
-
-
-.description {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+#myskills {
+  font-style: italic;
 }
 
-body {
-  background-color: #2d4986;
-  padding: 12px;
+#aboutme {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
 
+#contactinformation {
+  font-style: italic;
+}
+
+#somepictures {
+  font-style: italic;
 }
 
 .nacionality, .naturality, .living {
   text-decoration: underline;
   font-style: italic;
+  font-weight: bold;
 }
 
 .englishSkills {
@@ -36,6 +47,7 @@ body {
 
 .communicativeSkills {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .imagedescription-container img {
